@@ -1,0 +1,88 @@
+# ─────────────────────────────────────────────
+#   StockAgent — .gitignore
+# ─────────────────────────────────────────────
+
+# Environment & Secrets (NEVER commit these)
+.env
+*.env
+.env.local
+.env.production
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+.Python
+
+# Virtual Environments
+venv/
+env/
+.venv/
+ENV/
+stockagent/
+
+# Conda
+.conda/
+
+# IDE & Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Simulation output logs
+log/*.log
+log/*.xlsx
+log/*.csv
+
+# OS
+.DS_Store
+ehthumbs.db
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+
+# Coverage
+.coverage
+htmlcov/
+
+# Editor / AI tooling (never publish)
+.cursor/
+.cursorrules
+.cursorignore
+.cursorindexingignore
+*.mdc
+.cursormemory
+*.cursormemory
+AGENTS.md
+
+# Secrets and dependencies
+.env
+.env.*
+!.env.example
+*.pem
+node_modules/
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+dist/
+build/
+*.egg-info/
+.DS_Store
+Thumbs.db
