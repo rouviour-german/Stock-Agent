@@ -257,6 +257,10 @@ If this project helped your research or gave you ideas, drop a ⭐ — it genuin
 
 ---
 
+---
+
+---
+
 ## Author & Contact
 
 - **GitHub:** [@rouviour-german](https://github.com/rouviour-german)
